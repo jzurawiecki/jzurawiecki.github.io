@@ -334,6 +334,7 @@
   }
 
   .portfolio-grid { display: grid; gap: 1.5rem; }
+  .portfolio-grid + .portfolio-grid { margin-top: 1.5rem; }
   .portfolio-grid-3 { grid-template-columns: repeat(3, 1fr); }
   .portfolio-grid-2 { grid-template-columns: repeat(2, 1fr); }
 
@@ -705,13 +706,33 @@
   <div class="portfolio-category">
     <h3 class="portfolio-cat-label">Blog content</h3>
     <div class="portfolio-grid portfolio-grid-3">
+      <a class="portfolio-card" href="https://placester.com/real-estate-marketing-academy/aeo-playbook-for-agents" target="_blank" rel="noopener">
+        <div class="portfolio-card-thumb">
+          <img src="images/aeo-for-real-estate.webp" alt="AEO for real estate">
+        </div>
+        <span class="portfolio-card-title">AEO for Real Estate (2026): How to Show Up in Zero-Click Search?</span>
+      </a>
+      <a class="portfolio-card" href="https://placester.com/real-estate-marketing-academy/agent-image-vs-luxury-presence" target="_blank" rel="noopener">
+        <div class="portfolio-card-thumb">
+          <img src="images/agent-image-vs-luxury-presence.webp" alt="Agent Image vs. Luxury Presence">
+        </div>
+        <span class="portfolio-card-title">Agent Image vs. Luxury Presence: Which to Choose in 2026?</span>
+      </a>
+      <a class="portfolio-card" href="https://getzendo.io/blog/best-kanban-software/" target="_blank" rel="noopener">
+        <div class="portfolio-card-thumb">
+          <img src="images/best-kanban-apps-tools.avif" alt="The best Kanban apps and tools">
+        </div>
+        <span class="portfolio-card-title">The Best Kanban Apps &amp; Tools in 2026 – Complete Overview</span>
+      </a>
+    </div>
+    <div class="portfolio-grid portfolio-grid-3">
       <a class="portfolio-card" href="https://bigpicture.one/blog/bigpicture-enterprise-evolved/" target="_blank" rel="noopener">
         <div class="portfolio-card-thumb">
           <img src="images/bigpicture-enterprise-evolved_cover.png" alt="BigPicture Enterprise evolved">
         </div>
         <span class="portfolio-card-title">BigPicture Enterprise evolved: A smarter way to align, prioritize, and deliver with confidence</span>
       </a>
-      <a class="portfolio-card" href="https://bigpicture.one/blog/the-gantt-chart-all-you-need-to-know/" target="_blank" rel="noopener">
+      <a class="portfolio-card" href="https://appfire.com/resources/blog/what-is-a-gantt-chart-everything-you-need-to-know" target="_blank" rel="noopener">
         <div class="portfolio-card-thumb">
           <img src="images/The-Gantt-Chart-hero-image.png" alt="The Gantt chart">
         </div>
@@ -745,21 +766,6 @@
     </div>
   </div>
 
-  <!-- Landing pages -->
-  <div class="portfolio-category">
-    <h3 class="portfolio-cat-label">Landing pages</h3>
-    <div class="portfolio-grid portfolio-grid-2">
-      <a class="portfolio-card" href="https://bigpicture.one/resources/migrate-jira-ppm-to-cloud-stress-hassle-free/" target="_blank" rel="noopener">
-        <div class="portfolio-card-thumb"><img src="images/migration.png" alt="Jira PPM Cloud migration"></div>
-        <span class="portfolio-card-title">How to migrate your Jira PPM hub to Cloud stress- and hassle-free</span>
-      </a>
-      <a class="portfolio-card" href="https://bigpicture.one/resources/hybrid-project-portfolio-management-guide/" target="_blank" rel="noopener">
-        <div class="portfolio-card-thumb"><img src="images/Hybrid-guide-cover-image.png" alt="Hybrid Project and Portfolio Management"></div>
-        <span class="portfolio-card-title">Hybrid Project and Portfolio Management</span>
-      </a>
-    </div>
-  </div>
-
   <!-- Customer stories -->
   <div class="portfolio-category">
     <h3 class="portfolio-cat-label">Customer stories</h3>
@@ -781,7 +787,7 @@
   <h2 class="cv-heading" style="text-align:center;margin-bottom:0.75rem;">CV</h2>
   <p class="cv-subtext" style="text-align:center;max-width:60ch;margin:0 auto 2rem;">Want to know more about my skills and experience? My CV is just a click away.</p>
   <div class="cv-embed">
-    <iframe src="images/cv.pdf" class="cv-iframe" title="Jerzy Żurawiecki CV"></iframe>
+    <iframe src="images/cv.pdf?v=2"class="cv-iframe" title="Jerzy Żurawiecki CV"></iframe>
   </div>
 </section>
 
