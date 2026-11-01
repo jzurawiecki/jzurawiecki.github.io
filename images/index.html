@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jerzy Żurawiecki — Content Specialist · SEO, GEO &amp; SaaS copy</title>
+<meta name="description" content="Jerzy Żurawiecki is a Content Specialist with 6+ years of experience creating SEO-driven, high-performing content for tech and SaaS companies.">
+<meta property="og:title" content="Jerzy Żurawiecki — Content Specialist">
+<meta property="og:description" content="SEO, GEO and SaaS content: blog posts, website copy, product pages and customer stories.">
+<meta property="og:image" content="https://jzurawiecki.github.io/images/jerzy.webp">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#f6efe6">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Karla:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:96px}
+body{margin:0;background:#f6efe6;color:#2b2420;font-family:'Karla',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#b04e28}a:hover{color:#8f3e1f}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+:focus-visible{outline:2px solid #b04e28;outline-offset:2px}
+img{display:block;max-width:100%}
+.serif{font-family:'Young Serif',Georgia,serif;font-weight:400}
+.wrap{max-width:1280px;margin:0 auto}
+.px{padding-left:clamp(20px,5vw,64px);padding-right:clamp(20px,5vw,64px)}
+.bar{position:sticky;top:0;z-index:50;background:#f6efe6;border-bottom:1px solid #e8dccc}
+.bar-in{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;padding-top:18px;padding-bottom:18px}
+.brand{font-size:22px}
+.nav{display:flex;flex-wrap:wrap;gap:12px 28px;align-items:center;font-size:16px;font-weight:500}
+.nav>a{text-decoration:none;color:#2b2420}.nav>a:hover{color:#b04e28}
+.contact{position:relative}
+.contact-btn{display:inline-flex;align-items:center;gap:8px;background:#2b2420;color:#f6efe6;padding:10px 20px;border-radius:999px}
+.contact-btn:hover{background:#b04e28;color:#fff}
+.caret{font-size:12px;transition:transform .15s}.contact-btn[aria-expanded=true] .caret{transform:rotate(180deg)}
+.menu{position:absolute;top:calc(100% + 12px);right:0;z-index:60;background:#fffaf3;border:1px solid #e3d5c3;border-radius:22px;padding:12px;display:flex;flex-direction:column;gap:10px;box-shadow:0 12px 32px rgba(43,36,32,.16)}
+.menu[hidden]{display:none}
+.btn{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-size:16px;font-weight:600;padding:12.5px 22px;border-radius:999px;border:1.5px solid transparent;white-space:nowrap}
+.btn-mail{background:#b04e28;border-color:#b04e28;color:#fff}.btn-mail:hover{background:#8f3e1f;border-color:#8f3e1f;color:#fff}
+.btn-li{background:#0a66c2;border-color:#0a66c2;color:#fff}.btn-li:hover{background:#004182;border-color:#004182;color:#fff}
+.btn-out{border-color:#2b2420;color:#2b2420}.btn-out:hover{background:#2b2420;color:#f6efe6}
+.hero{padding-top:56px;padding-bottom:96px;display:flex;flex-wrap:wrap;gap:72px;align-items:center}
+.photo{position:relative;flex:0 1 380px;min-width:260px}
+.photo::before{content:"";position:absolute;inset:24px -20px -20px 24px;background:#e9c9a8;border-radius:20px}
+.photo img{position:relative;width:100%;aspect-ratio:4/5;height:auto;object-fit:cover;object-position:center top;border-radius:20px}
+.hero-txt{flex:1 1 480px;min-width:0;display:flex;flex-direction:column;gap:24px}
+.chip{align-self:flex-start;font-size:14px;font-weight:600;padding:6px 14px;border-radius:999px;background:#fffaf3;border:1px solid #e3d5c3}
+h1{margin:0;font-size:clamp(48px,6vw,76px);line-height:1;letter-spacing:-.01em}
+.bio{display:flex;flex-direction:column;gap:12px;font-size:18px;line-height:1.65;color:#4a3f38;max-width:60ch}
+.bio p{margin:0;text-wrap:pretty}
+.ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:8px}
+h2{margin:0;font-size:48px}
+.sec{display:flex;flex-direction:column;gap:32px}
+#skills{padding-bottom:88px}
+.tabs{display:flex;flex-wrap:wrap;gap:10px}
+.tab{font-size:16px;font-weight:600;padding:12px 22px;border-radius:999px;border:1.5px solid #b04e28;color:#b04e28}
+.tab[aria-selected=true]{background:#b04e28;color:#fff}
+.tab:hover{background:#8f3e1f;border-color:#8f3e1f;color:#fff}
+.panel{background:#fffaf3;border-radius:24px;padding:32px;display:flex;flex-direction:column;gap:18px;margin-top:20px}
+.panel[hidden]{display:none}
+.panel h3{margin:0;font-size:26px}
+.pills{display:flex;flex-wrap:wrap;gap:10px;margin:0;padding:0;list-style:none}
+.pill{display:inline-flex;align-items:center;gap:8px;font-size:16px;padding:9px 16px;border-radius:999px;background:#f3e4d3;color:#4a3f38}
+.pill img{width:18px;height:18px;border-radius:4px;object-fit:contain}
+.exp-bg{background:#efe3d4}
+#experience{padding-top:88px;padding-bottom:88px}
+.jobs{display:flex;flex-direction:column;gap:14px}
+.job{background:#f6efe6;border-radius:20px;padding:clamp(18px,4vw,24px) clamp(18px,4vw,28px);display:flex;flex-direction:column;gap:16px}
+.job-head{display:flex;align-items:center;gap:16px;width:100%;text-align:left}
+.job-meta{flex:1 1 auto;min-width:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 24px}
+.period{flex:0 0 190px;font-size:15px;font-weight:600;color:#b04e28}
+.role{flex:1 1 240px;min-width:0;font-size:clamp(19px,2.4vw,22px);line-height:1.25}
+.company{font-family:'Karla',system-ui,sans-serif;font-size:17px;color:#6b5d53}
+.toggle{flex:none;font-size:15px;font-weight:600;white-space:nowrap;border:1.5px solid #2b2420;border-radius:999px;padding:10px 18px}
+.job-head:hover .toggle{background:#2b2420;color:#f6efe6}
+.bullets{margin:0;padding:0 0 0 214px;display:flex;flex-direction:column;gap:8px;font-size:16px;line-height:1.6;color:#4a3f38;max-width:900px}
+.bullets[hidden]{display:none}
+.bullets li{padding-left:4px}
+#portfolio{padding-top:88px;padding-bottom:88px;gap:48px}
+.group{display:flex;flex-direction:column;gap:18px}
+.group-head{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.group-head h3{margin:0;font-size:19px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#6b5d53}
+.arrows{display:flex;gap:10px}
+.arrow{width:44px;height:44px;border-radius:50%;border:1.5px solid #2b2420;display:flex;align-items:center;justify-content:center;font-size:18px}
+.arrow:hover{background:#2b2420;color:#f6efe6}
+.track{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:4px}
+.track::-webkit-scrollbar{display:none}
+.card{flex:0 0 min(860px,92%);scroll-snap-align:start;display:flex;flex-direction:column;gap:14px;padding:12px 12px 22px;background:#fffaf3;border-radius:24px;text-decoration:none;color:#2b2420}
+.card:hover{background:#f3e4d3;color:#2b2420}
+.card img{width:100%;aspect-ratio:16/10;height:auto;object-fit:cover;object-position:center top;border-radius:16px;background:#f3e4d3}
+.card-title{font-size:17px;font-weight:600;line-height:1.35;padding:0 8px;text-wrap:pretty}
+.card-host{font-size:14px;color:#b04e28;padding:0 8px;margin-top:auto}
+#cv{padding-bottom:88px}
+.cv-box{background:#fffaf3;border-radius:32px;padding:clamp(24px,4vw,48px);display:flex;flex-direction:column;gap:28px}
+.cv-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:24px}
+.cv-head p{margin:10px 0 0;font-size:18px;line-height:1.6;color:#4a3f38}
+.cv-frame{width:100%;height:620px;border:0;border-radius:16px;background:#f3e4d3}
+footer{padding-top:24px;padding-bottom:24px;border-top:1px solid #e3d5c3;display:flex;justify-content:flex-end;font-size:14px;color:#6b5d53}
+@media (max-width:760px),(pointer:coarse){.cv-frame{display:none}}
+@media (max-width:640px){.bullets{padding-left:20px}h2{font-size:40px}.hero{gap:48px}}
+</style>
+</head>
+<body>
+<header class="bar">
+<div class="wrap px bar-in">
+<span class="brand serif">Jerzy Żurawiecki</span>
+<nav class="nav" aria-label="Main">
+<a href="#skills">Skills</a>
+<a href="#experience">Experience</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#cv">CV</a>
+<div class="contact">
+<button class="contact-btn" id="contactBtn" aria-expanded="false" aria-controls="contactMenu">Contact <span class="caret" aria-hidden="true">▾</span></button>
+<div class="menu" id="contactMenu" hidden>
+<a class="btn btn-mail" href="mailto:jzurawiecki@gmail.com"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>jzurawiecki@gmail.com</a>
+<a class="btn btn-li" href="https://www.linkedin.com/in/jerzy-%C5%BCurawiecki/" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>Jerzy Żurawiecki</a>
+</div>
+</div>
+</nav>
+</div>
+</header>
+<main>
+<div class="wrap">
+<section class="hero px">
+<div class="photo"><img src="images/jerzy.webp" alt="Jerzy Żurawiecki" width="380" height="475" fetchpriority="high"></div>
+<div class="hero-txt">
+<span class="chip">Content Specialist · SEO, GEO &amp; SaaS copy</span>
+<h1 class="serif">Jerzy Żurawiecki</h1>
+<div class="bio">
+<p>Hey there, are you looking for an experienced content specialist? You're in the right place.</p>
+<p>I'm Jerzy, a Content Specialist with 6+ years of experience creating SEO-driven, high-performing content for tech companies, with and without AI support. My focus is on turning complex software and IT concepts into clear, engaging, and conversion-focused copy.</p>
+<p>From blog posts to product pages and technical guides, my work drives organic traffic, supports product launches, and showcases the real value of SaaS products.</p>
+<p>End-to-end ownership comes naturally, along with close collaboration with product, sales, and design teams to deliver content that performs without compromising quality or brand voice.</p>
+</div>
+<div class="ctas">
+<a class="btn btn-mail" href="mailto:jzurawiecki@gmail.com"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>jzurawiecki@gmail.com</a>
+<a class="btn btn-li" href="https://www.linkedin.com/in/jerzy-%C5%BCurawiecki/" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>Jerzy Żurawiecki</a>
+</div>
+</div>
+</section>
+<section id="skills" class="sec px">
+<h2 class="serif">Skills</h2>
+<div>
+<div class="tabs" role="tablist">
+<button class="tab" role="tab" id="tab0" aria-controls="panel0" aria-selected="true" tabindex="0">Writing and Editing</button>
+<button class="tab" role="tab" id="tab1" aria-controls="panel1" aria-selected="false" tabindex="-1">SEO, GEO, and Content Strategy</button>
+<button class="tab" role="tab" id="tab2" aria-controls="panel2" aria-selected="false" tabindex="-1">SaaS and B2B Content</button>
+<button class="tab" role="tab" id="tab3" aria-controls="panel3" aria-selected="false" tabindex="-1">Tools and Platforms</button>
+</div>
+<div class="panel" role="tabpanel" id="panel0" aria-labelledby="tab0">
+<h3 class="serif">Writing and Editing</h3>
+<ul class="pills">
+<li class="pill">B2B copywriting for blogs, websites, landing pages, email campaigns, and video scripts</li>
+<li class="pill">Proofreading and editing to high editorial standards</li>
+<li class="pill">Brand voice and tone consistency</li>
+<li class="pill">AI-assisted content workflows with agentic tools (Claude Code)</li>
+</ul>
+</div>
+<div class="panel" role="tabpanel" id="panel1" aria-labelledby="tab1" hidden>
+<h3 class="serif">SEO, GEO, and Content Strategy</h3>
+<ul class="pills">
+<li class="pill">SEO content planning and optimization</li>
+<li class="pill">Generative engine optimization (GEO/AEO) for AI search visibility</li>
+<li class="pill">On-page optimization of existing pages</li>
+<li class="pill">Keyword research (SEMrush, SurferSEO)</li>
+<li class="pill">SEO content briefs and SERP analysis</li>
+<li class="pill">Internal linking strategy</li>
+<li class="pill">Content performance analysis (Google Search Console)</li>
+<li class="pill">Content refresh and website migration support</li>
+</ul>
+</div>
+<div class="panel" role="tabpanel" id="panel2" aria-labelledby="tab2" hidden>
+<h3 class="serif">SaaS and B2B Content</h3>
+<ul class="pills">
+<li class="pill">Landing pages and website copy</li>
+<li class="pill">Product pages and marketplace pages</li>
+<li class="pill">Technical guides and long-form SEO content</li>
+<li class="pill">Product release and lifecycle content</li>
+<li class="pill">Customer stories and use cases</li>
+</ul>
+</div>
+<div class="panel" role="tabpanel" id="panel3" aria-labelledby="tab3" hidden>
+<h3 class="serif">Tools and Platforms</h3>
+<ul class="pills">
+<li class="pill"><img src="images/logos/wordpress.svg" alt="" width="18" height="18" loading="lazy">WordPress</li>
+<li class="pill"><img src="images/logos/elementor.svg" alt="" width="18" height="18" loading="lazy">Elementor</li>
+<li class="pill"><img src="images/logos/strapi.svg" alt="" width="18" height="18" loading="lazy">Strapi</li>
+<li class="pill"><img src="images/logos/claude.svg" alt="" width="18" height="18" loading="lazy">Claude Code</li>
+<li class="pill"><img src="images/logos/chatgpt.png" alt="" width="18" height="18" loading="lazy">ChatGPT</li>
+<li class="pill"><img src="images/logos/googlesearchconsole.svg" alt="" width="18" height="18" loading="lazy">Google Search Console</li>
+<li class="pill"><img src="images/logos/semrush.svg" alt="" width="18" height="18" loading="lazy">SEMrush</li>
+<li class="pill"><img src="images/logos/surferseo.png" alt="" width="18" height="18" loading="lazy">SurferSEO</li>
+<li class="pill"><img src="images/logos/ahrefs.png" alt="" width="18" height="18" loading="lazy">Ahrefs</li>
+<li class="pill"><img src="images/logos/jira.svg" alt="" width="18" height="18" loading="lazy">Jira</li>
+<li class="pill"><img src="images/logos/asana.svg" alt="" width="18" height="18" loading="lazy">Asana</li>
+<li class="pill"><img src="images/logos/monday.png" alt="" width="18" height="18" loading="lazy">monday.com</li>
+<li class="pill"><img src="images/logos/google.svg" alt="" width="18" height="18" loading="lazy">Google Workspace</li>
+<li class="pill"><img src="images/logos/confluence.svg" alt="" width="18" height="18" loading="lazy">Confluence</li>
+</ul>
+</div>
+</div>
+</section>
+</div>
+<div class="exp-bg">
+<section id="experience" class="wrap sec px">
+<h2 class="serif">Experience</h2>
+<div class="jobs">
+<article class="job">
+<button class="job-head" aria-expanded="false" aria-controls="job0">
+<span class="job-meta"><span class="period">Apr 2026 – Present</span><span class="role serif">Content Specialist <span class="company">at Massive Pixel Creation / Placester</span></span></span>
+<span class="toggle">Expand</span>
+</button>
+<ul class="bullets" id="job0" hidden>
+<li>Use Claude Code with SEO and content skill workflows to research, brief, draft, and review posts for both search rankings and AI citation readiness.</li>
+<li>Create SEO content briefs that define search intent, target keywords, structure, and competitive gaps for each piece.</li>
+<li>Write SEO- and GEO-optimized blog posts that match search intent and are structured to rank in Google and get cited in AI answers.</li>
+<li>Research topics independently, using keyword data and SERP analysis to uncover high-potential content ideas and shape the content plan.</li>
+<li>Build internal links from new posts into existing blog content to strengthen site structure and topical authority.</li>
+<li>Design cover images for blog posts, keeping visuals consistent with the brand.</li>
+<li>Craft product page copy that turns software features into clear benefits for B2B buyers.</li>
+<li>Format and publish blog posts and product pages in WordPress, preparing each one for search and readers.</li>
+</ul>
+</article>
+<article class="job">
+<button class="job-head" aria-expanded="false" aria-controls="job1">
+<span class="job-meta"><span class="period">May 2022 – Oct 2025</span><span class="role serif">Content Specialist <span class="company">at BigPicture / Appfire</span></span></span>
+<span class="toggle">Expand</span>
+</button>
+<ul class="bullets" id="job1" hidden>
+<li>Planned, wrote, and published SEO-driven blog content, generating thousands of organic clicks annually, targeting high-intent SaaS and IT keywords.</li>
+<li>Optimized and refreshed existing pages using keyword data, SERP analysis, and performance metrics to increase rankings and organic traffic.</li>
+<li>Regularly monitored content performance using Google Search Console and collaborated with SEO specialists on optimization initiatives.</li>
+<li>Used AI tools (ChatGPT, Claude) to speed up research and drafting while maintaining high content quality and a consistent tone and voice.</li>
+<li>Wrote product release blogs, website copy, case studies, and marketplace pages to support new feature launches and product positioning.</li>
+<li>Created technical guides and long-form educational content in collaboration with industry experts, simplifying complex IT concepts for SaaS audiences.</li>
+<li>Delivered email copy and video scripts for product releases, updates, and marketing campaigns.</li>
+<li>Collaborated with product marketing, SEO, design, and development teams to align content with launch goals and business priorities.</li>
+<li>Participated in website migrations by conducting performance analyses, supporting CMS transitions, and ensuring SEO continuity.</li>
+<li>Created an internal UTM link library used by other content writers to standardize campaign tracking.</li>
+</ul>
+</article>
+<article class="job">
+<button class="job-head" aria-expanded="false" aria-controls="job2">
+<span class="job-meta"><span class="period">Mar 2022 – Dec 2025</span><span class="role serif">Content Writer <span class="company">at YABIMO</span></span></span>
+<span class="toggle">Expand</span>
+</button>
+<ul class="bullets" id="job2" hidden>
+<li>Wrote and optimized website copy for B2B audiences.</li>
+<li>Created and proofread customer-facing marketing materials.</li>
+</ul>
+</article>
+<article class="job">
+<button class="job-head" aria-expanded="false" aria-controls="job3">
+<span class="job-meta"><span class="period">Apr 2020 – Apr 2022</span><span class="role serif">Content Specialist <span class="company">at Landingi</span></span></span>
+<span class="toggle">Expand</span>
+</button>
+<ul class="bullets" id="job3" hidden>
+<li>Created SEO blog posts, website copy, landing pages, marketing emails, lead magnets, and social media content in English and Polish.</li>
+<li>Implemented SEO strategy and collaborated on keyword planning and content optimization.</li>
+<li>Participated in an SEO audit by fixing redirections, improving header structure, and maintaining internal linking best practices.</li>
+<li>Proofread and edited English-language content across multiple marketing channels.</li>
+</ul>
+</article>
+<article class="job">
+<button class="job-head" aria-expanded="false" aria-controls="job4">
+<span class="job-meta"><span class="period">Jul 2019 – Mar 2020</span><span class="role serif">Junior Content Specialist <span class="company">at Alerabat.com</span></span></span>
+<span class="toggle">Expand</span>
+</button>
+<ul class="bullets" id="job4" hidden>
+<li>Created SEO-focused web content based on keyword and content guidelines provided by SEO specialists.</li>
+<li>Uploaded and managed content in a custom CMS.</li>
+<li>Ensured grammatical accuracy of website copy, emails, and other marketing materials.</li>
+</ul>
+</article>
+<article class="job">
+<button class="job-head" aria-expanded="false" aria-controls="job5">
+<span class="job-meta"><span class="period">2017 – 2020</span><span class="role serif">English as a Second Language Teacher <span class="company">at four schools</span></span></span>
+<span class="toggle">Expand</span>
+</button>
+<ul class="bullets" id="job5" hidden>
+<li>SJO Britam, Oct 2018 – Jun 2020</li>
+<li>WhiteLabelCoders, Mar 2019 – Jul 2019</li>
+<li>SJO ProfiLingua, Apr 2018 – Jun 2019</li>
+<li>Flytronic S.A., Sep 2017 – Jun 2019</li>
+</ul>
+</article>
+</div>
+</section>
+</div>
+<div class="wrap">
+<section id="portfolio" class="sec px">
+<h2 class="serif">Portfolio</h2>
+<div class="group">
+<div class="group-head">
+<h3>Blog content</h3>
+<div class="arrows"><button class="arrow" data-track="t0" data-dir="-1" aria-label="Previous: Blog content">←</button><button class="arrow" data-track="t0" data-dir="1" aria-label="Next: Blog content">→</button></div>
+</div>
+<div class="track" id="t0">
+<a class="card" href="https://placester.com/real-estate-marketing-academy/aeo-playbook-for-agents" target="_blank" rel="noopener">
+<img src="images/aeo.webp" alt="AEO for Real Estate (2026): How to Show Up in Zero-Click Search?" width="860" height="538" loading="lazy" decoding="async">
+<span class="card-title">AEO for Real Estate (2026): How to Show Up in Zero-Click Search?</span>
+<span class="card-host">placester.com →</span>
+</a>
+<a class="card" href="https://placester.com/real-estate-marketing-academy/agent-image-vs-luxury-presence" target="_blank" rel="noopener">
+<img src="images/agent-image.webp" alt="Agent Image vs. Luxury Presence: Which to Choose in 2026?" width="860" height="538" loading="lazy" decoding="async">
+<span class="card-title">Agent Image vs. Luxury Presence: Which to Choose in 2026?</span>
+<span class="card-host">placester.com →</span>
+</a>
+<a class="card" href="https://getzendo.io/blog/best-kanban-software/" target="_blank" rel="noopener">
+<img src="images/kanban.avif" alt="The Best Kanban Apps &amp; Tools in 2026 – Complete Overview" width="860" height="538" loading="lazy" decoding="async">
+<span class="card-title">The Best Kanban Apps &amp; Tools in 2026 – Complete Overview</span>
+<span class="card-host">getzendo.io →</span>
+</a>
+<a class="card" href="https://bigpicture.one/blog/bigpicture-enterprise-evolved/" target="_blank" rel="noopener">
+<img src="images/bigpicture.webp" alt="BigPicture Enterprise evolved: A smarter way to align, prioritize, and deliver with confidence" width="860" height="538" loading="lazy" decoding="async">
+<span class="card-title">BigPicture Enterprise evolved: A smarter way to align, prioritize, and deliver with confidence</span>
+<span class="card-host">bigpicture.one →</span>
+</a>
+<a class="card" href="https://appfire.com/resources/blog/what-is-a-gantt-chart-everything-you-need-to-know" target="_blank" rel="noopener">
+<img src="images/gantt-chart.webp" alt="The Gantt chart: All you need to know" width="860" height="538" loading="lazy" decoding="async">
+<span class="card-title">The Gantt chart: All you need to know</span>
+<span class="card-host">appfire.com →</span>
+</a>
+<a class="card" href="https://appfire.com/resources/blog/how-to-log-track-time-data-in-7pace" target="_blank" rel="noopener">
+<img src="images/7pace-time.webp" alt="How to log and track individual time data in 7pace Timetracker" width="860" height="538" loading="lazy" decoding="async">
+<span class="card-title">How to log and track individual time data in 7pace Timetracker</span>
+<span class="card-host">appfire.com →</span>
+</a>
+</div>
+</div>
+<div class="group">
+<div class="group-head">
+<h3>Website copy</h3>
+<div class="arrows"><button class="arrow" data-track="t1" data-dir="-1" aria-label="Previous: Website copy">←</button><button class="arrow" data-track="t1" data-dir="1" aria-label="Next: Website copy">→</button></div>
+</div>
+<div class="track" id="t1">
+<a class="card" href="https://appfire.com/7pace" target="_blank" rel="noopener">
+<img src="images/7pace.webp" alt="7pace Timetracker: Jira, Azure DevOps &amp; monday.com" width="860" height="538" loading="lazy" decoding="async">
+<span class="card-title">7pace Timetracker: Jira, Azure DevOps &amp; monday.com</span>
+<span class="card-host">appfire.com →</span>
+</a>
+<a class="card" href="https://appfire.com/products/7pace-for-jira-atlassian" target="_blank" rel="noopener">
+<img src="images/7pace-for-jira.webp" alt="7pace Timetracker for Jira (Timesheets &amp; Time Tracking)" width="860" height="538" loading="lazy" decoding="async">
+<span class="card-title">7pace Timetracker for Jira (Timesheets &amp; Time Tracking)</span>
+<span class="card-host">appfire.com →</span>
+</a>
+<a class="card" href="https://yabimo.com/" target="_blank" rel="noopener">
+<img src="images/yabimo.webp" alt="YABIMO – Experts in construction, energy, oil, and gas industries" width="860" height="538" loading="lazy" decoding="async">
+<span class="card-title">YABIMO – Experts in construction, energy, oil, and gas industries</span>
+<span class="card-host">yabimo.com →</span>
+</a>
+</div>
+</div>
+<div class="group">
+<div class="group-head">
+<h3>Customer stories</h3>
+<div class="arrows"><button class="arrow" data-track="t2" data-dir="-1" aria-label="Previous: Customer stories">←</button><button class="arrow" data-track="t2" data-dir="1" aria-label="Next: Customer stories">→</button></div>
+</div>
+<div class="track" id="t2">
+<a class="card" href="https://appfire.com/resources/resource-library/customer-stories/claritas-dashboard-hub-pro-reporting" target="_blank" rel="noopener">
+<img src="images/claritas.webp" alt="How Claritas delivers secure and scalable reporting with Dashboard Hub Pro" width="860" height="538" loading="lazy" decoding="async">
+<span class="card-title">How Claritas delivers secure and scalable reporting with Dashboard Hub Pro</span>
+<span class="card-host">appfire.com →</span>
+</a>
+<a class="card" href="https://appfire.com/resources/resource-library/customer-stories/yprime-data-efficiency" target="_blank" rel="noopener">
+<img src="images/yprime.webp" alt="YPrime's journey to data efficiency with Rich Filters and Dashboard Hub" width="860" height="538" loading="lazy" decoding="async">
+<span class="card-title">YPrime's journey to data efficiency with Rich Filters and Dashboard Hub</span>
+<span class="card-host">appfire.com →</span>
+</a>
+</div>
+</div>
+</section>
+<section id="cv" class="px">
+<div class="cv-box">
+<div class="cv-head">
+<div><h2 class="serif">My CV</h2><p>Want to know more about my skills and experience? My CV is just a click away.</p></div>
+<a class="btn btn-out" href="images/Jerzy-Zurawiecki-CV.pdf" download>Download PDF</a>
+</div>
+<iframe class="cv-frame" src="images/Jerzy-Zurawiecki-CV.pdf" title="Jerzy Żurawiecki CV" loading="lazy"></iframe>
+</div>
+</section>
+</div>
+</main>
+<footer class="wrap px"><span>© 2026 Jerzy Żurawiecki · Built in Claude Design</span></footer>
+<script>
+(function(){
+  var btn=document.getElementById('contactBtn'),menu=document.getElementById('contactMenu');
+  function setMenu(o){menu.hidden=!o;btn.setAttribute('aria-expanded',o)}
+  btn.addEventListener('click',function(e){e.stopPropagation();setMenu(menu.hidden)});
+  document.addEventListener('click',function(e){if(!menu.hidden&&!menu.contains(e.target))setMenu(false)});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')setMenu(false)});
+  var tabs=[].slice.call(document.querySelectorAll('.tab'));
+  function select(i){tabs.forEach(function(t,j){var on=i===j;t.setAttribute('aria-selected',on);t.tabIndex=on?0:-1;document.getElementById('panel'+j).hidden=!on})}
+  tabs.forEach(function(t,i){
+    t.addEventListener('click',function(){select(i)});
+    t.addEventListener('keydown',function(e){var d=e.key==='ArrowRight'?1:e.key==='ArrowLeft'?-1:0;if(d){var n=(i+d+tabs.length)%tabs.length;select(n);tabs[n].focus()}});
+  });
+  [].forEach.call(document.querySelectorAll('.job-head'),function(h){
+    h.addEventListener('click',function(){var o=h.getAttribute('aria-expanded')!=='true';h.setAttribute('aria-expanded',o);document.getElementById(h.getAttribute('aria-controls')).hidden=!o;h.querySelector('.toggle').textContent=o?'Collapse':'Expand'});
+  });
+  [].forEach.call(document.querySelectorAll('.arrow'),function(a){
+    a.addEventListener('click',function(){
+      var el=document.getElementById(a.dataset.track),dir=+a.dataset.dir,c=el.firstElementChild;
+      var step=c?c.getBoundingClientRect().width+20:el.clientWidth*.8;
+      if(dir>0&&el.scrollLeft+el.clientWidth>=el.scrollWidth-4)el.scrollTo({left:0,behavior:'smooth'});
+      else if(dir<0&&el.scrollLeft<=4)el.scrollTo({left:el.scrollWidth,behavior:'smooth'});
+      else el.scrollBy({left:dir*step,behavior:'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>
